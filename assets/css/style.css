@@ -25,6 +25,33 @@ h3 { font-family: 'Josefin Sans', sans-serif; font-size: 32px; font-weight: 300;
 
 img { max-width: 100%; }
 
+@media  only screen and (min-device-width: 768px) 
+{
+    .form-container {
+      padding: 5%;
+      background: #ffffff;
+                  
+      max-width: 520px;
+      margin: auto;
+    }
+
+}
+
+h1, p 
+{
+  text-align: center;
+}
+
+input, textarea , button
+{
+  width: 100%;
+}    
+textarea
+{
+  height: 200px;
+}
+
+
 .row {
   margin: 15px;
 }
